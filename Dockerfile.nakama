@@ -1,0 +1,4 @@
+FROM heroiclabs/nakama:3.21.1
+
+COPY nakama/modules/*.lua /nakama/data/modules/
+COPY nakama/local.yml /nakama/data/
