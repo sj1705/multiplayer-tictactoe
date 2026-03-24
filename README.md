@@ -62,7 +62,7 @@ This prevents cheating and ensures game integrity.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/multiplayer-tictactoe.git
+git clone https://github.com/sj1705/multiplayer-tictactoe.git
 cd multiplayer-tictactoe
 ```
 
