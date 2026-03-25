@@ -7,7 +7,7 @@ interface Props {
   userId: string;
 }
 
-export default function Matchmaking({ onMatchFound, userId }: Props) {
+export default function Matchmaking({ onMatchFound, userId: _userId }: Props) {
   const [searching, setSearching] = useState(false);
   const [timedMode, setTimedMode] = useState(false);
   const [waitingInRoom, setWaitingInRoom] = useState(false);

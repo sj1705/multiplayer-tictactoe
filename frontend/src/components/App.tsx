@@ -92,7 +92,7 @@ export default function App() {
               current_turn: json.current_turn || '',
               game_over: !!json.game_over,
               winner: json.winner || '',
-              win_line: json.win_line ? luaToArray(json.win_line, null) : null,
+              win_line: json.win_line ? luaToArray(json.win_line) : null,
               timed_mode: !!json.timed_mode,
               turn_deadline: json.turn_deadline || 0,
             };
@@ -110,7 +110,7 @@ export default function App() {
             setGameOverData({
               winner: json.winner || '',
               winner_name: json.winner_name || '',
-              win_line: json.win_line ? luaToArray(json.win_line, null) : null,
+              win_line: json.win_line ? luaToArray(json.win_line) : null,
               reason: json.reason || 'unknown',
             });
             setScreen('result');
