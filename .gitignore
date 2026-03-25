@@ -7,10 +7,8 @@ frontend/dist/
 # Environment files
 .env
 .env.local
-.env.production
 frontend/.env
 frontend/.env.local
-frontend/.env.production
 
 # IDE
 .vscode/
