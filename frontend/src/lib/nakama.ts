@@ -22,7 +22,10 @@ export async function authenticate(nickname: string): Promise<Session> {
   // Device-based auth with persistent ID
   let deviceId = localStorage.getItem('nakama_device_id');
   if (!deviceId) {
-    deviceId = crypto.randomUUID();
+    deviceId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+      const r = Math.random() * 16 | 0;
+      return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
     localStorage.setItem('nakama_device_id', deviceId);
   }
 
