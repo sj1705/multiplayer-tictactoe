@@ -1,8 +1,8 @@
 # Dependencies
 frontend/node_modules/
 
-# Build output
-frontend/dist/
+# Build output (dist kept for EC2 deployment)
+# frontend/dist/
 
 # Environment files
 .env
