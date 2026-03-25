@@ -10,7 +10,7 @@ A production-ready, real-time multiplayer Tic-Tac-Toe game with **server-authori
 |---|---|
 | **Deployed Game** | [http://43.204.23.210](http://43.204.23.210) |
 | **Nakama Server Endpoint** | [http://43.204.23.210:7350](http://43.204.23.210:7350) |
-| **Nakama Admin Console** | [http://43.204.23.210:7351](http://43.204.23.210:7351) (admin / password) |
+| **Nakama Admin Console** | [http://43.204.23.210:7351](http://43.204.23.210:7351) |
 | **Source Code** | [https://github.com/sj1705/multiplayer-tictactoe](https://github.com/sj1705/multiplayer-tictactoe) |
 
 ---
